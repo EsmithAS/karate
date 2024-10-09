@@ -1,0 +1,723 @@
+21:24:28.890 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:24:37.826 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+21:24:39.428 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users%3Fpage
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:24:41.389 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 1942
+1 < 200
+1 < Date: Wed, 09 Oct 2024 02:24:41 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1728440681&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=b9vds8B3OASo9%2FlWnib2Nr2bhSX2Fuoh6KgWbI5ZH5k%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1728440681&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=b9vds8B3OASo9%2FlWnib2Nr2bhSX2Fuoh6KgWbI5ZH5k%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2c1-N6Rqerxquq2kgQhL51EiSg4x0R8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: MISS
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 8cfaea6d8f487878-ARI
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"name":"cerulean","year":2000,"color":"#98B2D1","pantone_value":"15-4020"},{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},{"id":3,"name":"true red","year":2002,"color":"#BF1932","pantone_value":"19-1664"},{"id":4,"name":"aqua sky","year":2003,"color":"#7BC4C4","pantone_value":"14-4811"},{"id":5,"name":"tigerlily","year":2004,"color":"#E2583E","pantone_value":"17-1456"},{"id":6,"name":"blue turquoise","year":2005,"color":"#53B0AE","pantone_value":"15-5217"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+21:24:45.830 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:features/request.feature
+21:26:21.507 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:26:21.551 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1728440781526
+21:26:29.162 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+21:26:30.792 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users%3Fpage=2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:26:32.187 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 1367
+1 < 200
+1 < Date: Wed, 09 Oct 2024 02:26:31 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1728440791&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=hgBzpwaEdKInQ4XvbRO3aVrHcHvnETwQBOwRlB6uhGs%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1728440791&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=hgBzpwaEdKInQ4XvbRO3aVrHcHvnETwQBOwRlB6uhGs%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2c1-N6Rqerxquq2kgQhL51EiSg4x0R8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: MISS
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 8cfaed220df3c840-ARI
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"name":"cerulean","year":2000,"color":"#98B2D1","pantone_value":"15-4020"},{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},{"id":3,"name":"true red","year":2002,"color":"#BF1932","pantone_value":"19-1664"},{"id":4,"name":"aqua sky","year":2003,"color":"#7BC4C4","pantone_value":"14-4811"},{"id":5,"name":"tigerlily","year":2004,"color":"#E2583E","pantone_value":"17-1456"},{"id":6,"name":"blue turquoise","year":2005,"color":"#53B0AE","pantone_value":"15-5217"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+21:26:35.098 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:features/request.feature
+21:28:39.222 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:28:39.262 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1728440919240
+21:28:44.597 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+21:28:45.990 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users%3Fpage=2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:28:47.423 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 1416
+1 < 200
+1 < Date: Wed, 09 Oct 2024 02:28:47 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1728440927&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=DYvx%2BcT8khkAsCpTQEaJIO80tMwRUkDj0Q3Mu5Whx%2Bg%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1728440927&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=DYvx%2BcT8khkAsCpTQEaJIO80tMwRUkDj0Q3Mu5Whx%2Bg%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2c1-N6Rqerxquq2kgQhL51EiSg4x0R8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: MISS
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 8cfaf06fb8f777ed-GRU
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"name":"cerulean","year":2000,"color":"#98B2D1","pantone_value":"15-4020"},{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},{"id":3,"name":"true red","year":2002,"color":"#BF1932","pantone_value":"19-1664"},{"id":4,"name":"aqua sky","year":2003,"color":"#7BC4C4","pantone_value":"14-4811"},{"id":5,"name":"tigerlily","year":2004,"color":"#E2583E","pantone_value":"17-1456"},{"id":6,"name":"blue turquoise","year":2005,"color":"#53B0AE","pantone_value":"15-5217"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+21:28:47.654 [pool-1-thread-1] ERROR com.intuit.karate - classpath:features/request.feature:10
+* def name1 = data[0].name
+js failed:
+>>>>
+01: data[0].name
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "data" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:features/request.feature:10
+21:28:51.630 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:features/request.feature
+21:30:16.849 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:30:16.886 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1728441016867
+21:30:21.559 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+21:30:22.845 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users%3Fpage=2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:30:23.706 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 850
+1 < 200
+1 < Date: Wed, 09 Oct 2024 02:30:23 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1728440791&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=hgBzpwaEdKInQ4XvbRO3aVrHcHvnETwQBOwRlB6uhGs%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1728440791&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=hgBzpwaEdKInQ4XvbRO3aVrHcHvnETwQBOwRlB6uhGs%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"2c1-N6Rqerxquq2kgQhL51EiSg4x0R8"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 232
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 8cfaf2ccacd7c838-ARI
+{"page":1,"per_page":6,"total":12,"total_pages":2,"data":[{"id":1,"name":"cerulean","year":2000,"color":"#98B2D1","pantone_value":"15-4020"},{"id":2,"name":"fuchsia rose","year":2001,"color":"#C74375","pantone_value":"17-2031"},{"id":3,"name":"true red","year":2002,"color":"#BF1932","pantone_value":"19-1664"},{"id":4,"name":"aqua sky","year":2003,"color":"#7BC4C4","pantone_value":"14-4811"},{"id":5,"name":"tigerlily","year":2004,"color":"#E2583E","pantone_value":"17-1456"},{"id":6,"name":"blue turquoise","year":2005,"color":"#53B0AE","pantone_value":"15-5217"}],"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+21:30:23.950 [pool-1-thread-1] INFO  com.intuit.karate - [print] first name >>>  cerulean 
+21:30:26.518 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:features/request.feature
+21:39:20.377 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:39:20.413 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1728441560393
+21:39:25.573 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+21:39:25.752 [pool-1-thread-1] ERROR com.intuit.karate - classpath:features/request.feature:15
+* table users 
+|	name	|year	|
+|	Aniki	|24	|
+|	Esmtih	|25	|
+
+js failed:
+>>>>
+01: Aniki
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "Aniki" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:features/request.feature:15
+21:39:27.966 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:features/request.feature
+21:40:41.748 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:40:41.781 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1728441641764
+21:40:48.263 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+21:40:48.537 [pool-1-thread-1] INFO  com.intuit.karate - [print] first name >>>  [
+  {
+    "name": "Aniki",
+    "year": 24,
+    "login": true
+  },
+  {
+    "name": "Esmtih",
+    "year": 25,
+    "login": false
+  }
+]
+ 
+21:40:50.565 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:features/request.feature
+21:59:52.113 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:59:52.150 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1728442792131
+21:59:57.937 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+21:59:58.103 [pool-1-thread-1] INFO  com.intuit.karate - [print] first name >>>  [
+  {
+    "name": "Aniki",
+    "year": 24,
+    "login": true
+  },
+  {
+    "name": "Esmtih",
+    "year": 25,
+    "login": false
+  }
+]
+ 
+22:00:00.844 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:features/request.feature
+22:00:28.638 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:00:28.713 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1728442828666
+22:00:36.608 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+22:00:36.909 [pool-1-thread-1] INFO  com.intuit.karate - [print] csv >>>  fruit,stock
+pera,2
+apple,5 
+22:00:39.258 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:features/request.feature
+22:01:08.605 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:01:08.654 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1728442868622
+22:01:13.172 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+22:01:13.539 [pool-1-thread-1] INFO  com.intuit.karate - [print] csv >>>  [
+  {
+    "fruit": "pera",
+    "stock": "2"
+  },
+  {
+    "fruit": "apple",
+    "stock": "5"
+  }
+]
+ 
+22:01:17.230 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:features/request.feature
+22:04:59.255 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:04:59.290 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1728443099273
+22:05:06.140 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+22:05:06.434 [pool-1-thread-1] ERROR com.intuit.karate - classpath:features/request.feature:35
+* def csvUser = read('./data/user.csv')
+js failed:
+>>>>
+01: read('./data/user.csv')
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: C:\Users\Esmith\Desktop\Projects Dev\Testing\karate\target\test-classes\features\.\data\user.csv (El sistema no puede encontrar la ruta especificada)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:68)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:124)
+- <js>.:program(Unnamed:1)
+
+classpath:features/request.feature:35
+22:05:09.854 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:features/request.feature
+22:06:41.122 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:06:41.158 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1728443201138
+22:06:46.107 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+22:06:46.339 [pool-1-thread-1] ERROR com.intuit.karate - classpath:features/request.feature:35
+* def csvUser = read('classpath:data/user.csv')
+js failed:
+>>>>
+01: read('classpath:data/user.csv')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: data/user.csv
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:126)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:129)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:68)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:124)
+- <js>.:program(Unnamed:1)
+
+classpath:features/request.feature:35
+22:06:48.496 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:features/request.feature
+22:07:43.211 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:07:43.249 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1728443263227
+22:07:49.572 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+22:07:50.216 [pool-1-thread-1] INFO  com.intuit.karate - [print] csvUser >>>  [
+  {
+    "id": "1",
+    "name": "Aniki",
+    "country": "KR"
+  },
+  {
+    "id": "2",
+    "name": "Esmith",
+    "country": "PE"
+  }
+]
+ 
+22:07:55.698 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:features/request.feature
+22:10:06.214 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:10:06.246 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1728443406229
+22:10:13.723 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+22:10:14.096 [pool-1-thread-1] INFO  com.intuit.karate - [print] csvUser >>>  [
+  {
+    "id": "1",
+    "name": "Aniki",
+    "country": "KR"
+  },
+  {
+    "id": "2",
+    "name": "Esmith",
+    "country": "PE"
+  }
+]
+ 
+22:10:14.113 [pool-1-thread-1] INFO  com.intuit.karate - [print] csvUser2 >>>  [
+]
+ 
+22:10:16.506 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:features/request.feature
+22:15:59.175 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:15:59.211 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1728443759190
+22:16:05.543 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+22:16:06.032 [pool-1-thread-1] ERROR com.intuit.karate - classpath:features/request.feature:43
+* print 'changeName >>> ', changeName(csvUser)
+js failed:
+>>>>
+01: karate.log('[print]','changeName >>> ', changeName(csvUser))
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "user" is not defined
+- <js>.:anonymous(Unnamed:1)
+
+classpath:features/request.feature:43
+22:16:08.189 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:features/request.feature
+22:17:24.341 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:17:24.382 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1728443844358
+22:17:29.739 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+22:17:30.201 [pool-1-thread-1] INFO  com.intuit.karate - [print] changeName >>>  [
+  "11",
+  "21"
+]
+ 
+22:17:33.782 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:features/request.feature
+22:19:50.077 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:19:50.118 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1728443990097
+22:19:56.432 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+22:19:56.879 [pool-1-thread-1] INFO  com.intuit.karate - [print] changeName >>>  [
+  null,
+  null
+]
+ 
+22:19:59.182 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:features/request.feature
+22:23:15.429 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:23:15.468 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1728444195444
+22:23:20.562 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+22:23:21.049 [pool-1-thread-1] INFO  com.intuit.karate - [print] changeId >>>  [
+  {
+    "id": "11",
+    "name": "Aniki"
+  },
+  {
+    "id": "21",
+    "name": "Esmith"
+  }
+]
+ 
+22:23:21.081 [pool-1-thread-1] INFO  com.intuit.karate - [print] changeName >>>  [
+  {
+    "id": "1",
+    "name": "ANIKI"
+  },
+  {
+    "id": "2",
+    "name": "ESMITH"
+  }
+]
+ 
+22:23:23.455 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:features/request.feature
+22:28:52.327 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:28:52.359 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1728444532341
+22:28:58.567 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+22:28:58.570 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+22:28:59.207 [pool-1-thread-1] ERROR com.intuit.karate - classpath:features/request.feature:58
+* table user 
+|	id	|name	|country	|
+|	1	|Aniki	|KR	|
+
+js failed:
+>>>>
+01: Aniki
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "Aniki" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:features/request.feature:58
+22:28:59.208 [pool-1-thread-2] ERROR com.intuit.karate - classpath:features/request.feature:58
+* table user 
+|	id	|name	|country	|
+|	2	|Esmith	|PE	|
+
+js failed:
+>>>>
+01: Esmith
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "Esmith" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:features/request.feature:58
+22:29:03.380 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) classpath:features/request.feature
+22:30:51.652 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:30:51.770 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1728444651675
+22:30:59.933 [pool-1-thread-2] INFO  com.intuit.karate - karate.env system property was: null 
+22:30:59.933 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+22:31:00.170 [pool-1-thread-1] INFO  com.intuit.karate - [print] table user >>>  [
+  {
+    "id": 1,
+    "name": "Aniki",
+    "country": "KR"
+  }
+]
+ 
+22:31:00.169 [pool-1-thread-2] INFO  com.intuit.karate - [print] table user >>>  [
+  {
+    "id": 2,
+    "name": "Esmith",
+    "country": "PE"
+  }
+]
+ 
+22:31:03.902 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:features/request.feature
+22:37:40.254 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:37:40.298 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1728445060278
+22:37:40.336 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+22:37:48.881 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+22:37:49.130 [pool-1-thread-1] ERROR com.intuit.karate - classpath:features/request.feature:69
+* def othertableFeature = call read('data.feature') animals
+js failed:
+>>>>
+01: animals
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "animals" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:features/request.feature:69
+22:37:51.257 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 2 (0 remaining) classpath:features/request.feature
+22:41:16.792 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:41:16.829 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1728445276808
+22:41:16.879 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+22:41:29.192 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+22:41:29.581 [pool-1-thread-1] ERROR com.intuit.karate - classpath:features/request.feature:69
+* def othertableFeature = call read('@data_table') animals
+js failed:
+>>>>
+01: animals
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "animals" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:features/request.feature:69
+22:41:43.379 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 2 (0 remaining) classpath:features/request.feature
+22:43:48.689 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:43:48.733 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1728445428707
+22:43:48.785 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+22:43:55.130 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+22:43:55.331 [pool-1-thread-1] INFO  com.intuit.karate - [print] othertableFeature >>>  {
+}
+ 
+22:43:58.106 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 2 (0 remaining) classpath:features/request.feature
+22:44:56.307 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:44:56.388 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1728445496348
+22:44:56.448 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+22:45:05.891 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+22:45:06.248 [pool-1-thread-1] ERROR com.intuit.karate - classpath:features/data.feature:5
+* table animals 
+|	name	|color	|
+|	'Dog'	|White	|
+|	'Cat'	|Orange	|
+
+js failed:
+>>>>
+01: White
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "White" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:features/data.feature:5
+22:45:06.278 [pool-1-thread-1] ERROR com.intuit.karate - classpath:features/request.feature:69
+* def othertableFeature = call read('data.feature')
+js failed:
+>>>>
+01: White
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "White" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:features/data.feature:5
+classpath:features/request.feature:69
+22:45:10.793 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 2 (0 remaining) classpath:features/request.feature
+22:46:10.772 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:46:10.836 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1728445570812
+22:46:10.870 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+22:46:16.774 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+22:46:17.024 [pool-1-thread-1] INFO  com.intuit.karate - [print] animals >>>  [
+  {
+    "name": "Dog",
+    "color": "White"
+  },
+  {
+    "name": "Cat",
+    "color": "Orange"
+  }
+]
+ 
+22:46:17.050 [pool-1-thread-1] INFO  com.intuit.karate - [print] othertableFeature >>>  [
+  {
+    "name": "Dog",
+    "color": "White"
+  },
+  {
+    "name": "Cat",
+    "color": "Orange"
+  }
+]
+ 
+22:46:20.297 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 2 (0 remaining) classpath:features/request.feature
+22:47:27.972 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:47:28.015 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1728445647991
+22:47:28.107 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+22:47:35.664 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+22:47:36.078 [pool-1-thread-1] ERROR com.intuit.karate - classpath:features/request.feature:69
+* def othertableFeature = call read('data.feature') animals
+js failed:
+>>>>
+01: animals
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "animals" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:features/request.feature:69
+22:47:39.306 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 2 (0 remaining) classpath:features/request.feature
+22:48:14.511 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:48:14.594 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1728445694528
+22:48:14.639 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+22:48:19.968 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+22:48:20.207 [pool-1-thread-1] ERROR com.intuit.karate - classpath:features/request.feature:69
+* def othertableFeature = call read('data.feature').animals
+js failed:
+>>>>
+01: .animals
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:0 Expected an operand but found .
+.animals
+^
+
+- org.graalvm.polyglot.Context.eval(Context.java:425)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:169)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:165)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1286)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2238)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2157)
+- com.intuit.karate.core.ScenarioEngine.call(ScenarioEngine.java:1958)
+
+classpath:features/request.feature:69
+22:48:22.515 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 2 (0 remaining) classpath:features/request.feature
+22:49:08.821 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:49:08.870 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1728445748844
+22:49:08.905 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+22:49:15.982 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+22:49:16.320 [pool-1-thread-1] INFO  com.intuit.karate - [print] animals >>>  [
+  {
+    "name": "Dog",
+    "color": "White"
+  },
+  {
+    "name": "Cat",
+    "color": "Orange"
+  }
+]
+ 
+22:49:16.341 [pool-1-thread-1] INFO  com.intuit.karate - [print] othertableFeature >>>  [
+  {
+    "name": "Dog",
+    "color": "White"
+  },
+  {
+    "name": "Cat",
+    "color": "Orange"
+  }
+]
+ 
+22:49:20.649 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 2 (0 remaining) classpath:features/request.feature
+22:52:43.646 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:52:43.684 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1728445963661
+22:52:43.719 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+22:52:49.633 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+22:52:49.834 [pool-1-thread-1] INFO  com.intuit.karate - [print] otherTagFeature >>>  null 
+22:52:52.387 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 2 (0 remaining) classpath:features/request.feature
+22:54:34.824 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:54:34.898 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1728446074855
+22:54:34.939 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+22:54:43.425 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+22:54:43.994 [pool-1-thread-1] INFO  c.intuit.karate.core.FeatureRuntime - classpath:features/data.feature - call by tag at line 13: get_user
+22:54:46.002 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:54:47.489 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 1472
+1 < 200
+1 < Date: Wed, 09 Oct 2024 03:54:47 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1728055067&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=PenLdsRC9h0kEGXYK%2F%2FR2KkL%2Fc4FRy7BROAshDd9JXo%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1728055067&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=PenLdsRC9h0kEGXYK%2F%2FR2KkL%2Fc4FRy7BROAshDd9JXo%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: REVALIDATED
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 8cfb6e6ad864c83c-ARI
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+22:54:47.531 [pool-1-thread-1] INFO  com.intuit.karate - [print] otherTagFeature >>>  {
+  "data": {
+    "id": 2,
+    "email": "janet.weaver@reqres.in",
+    "first_name": "Janet",
+    "last_name": "Weaver",
+    "avatar": "https://reqres.in/img/faces/2-image.jpg"
+  },
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+22:54:50.626 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 2 (0 remaining) classpath:features/request.feature
+22:56:09.600 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:56:09.642 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1728446169617
+22:56:09.675 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+22:56:14.680 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+22:56:14.840 [pool-1-thread-1] INFO  c.intuit.karate.core.FeatureRuntime - classpath:features/data.feature - call by tag at line 13: get_user
+22:56:15.966 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:56:16.746 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 769
+1 < 200
+1 < Date: Wed, 09 Oct 2024 03:56:16 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1728055067&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=PenLdsRC9h0kEGXYK%2F%2FR2KkL%2Fc4FRy7BROAshDd9JXo%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1728055067&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=PenLdsRC9h0kEGXYK%2F%2FR2KkL%2Fc4FRy7BROAshDd9JXo%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 89
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 8cfb709c3ba0c848-ARI
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+22:56:16.817 [pool-1-thread-1] INFO  com.intuit.karate - [print] otherTagFeature >>>  {
+  "data": {
+    "id": 2,
+    "email": "janet.weaver@reqres.in",
+    "first_name": "Janet",
+    "last_name": "Weaver",
+    "avatar": "https://reqres.in/img/faces/2-image.jpg"
+  },
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+22:56:16.857 [pool-1-thread-1] ERROR com.intuit.karate - classpath:features/request.feature:77
+* def emailResponseUser = response.data.email
+js failed:
+>>>>
+01: response.data.email
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "response" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:features/request.feature:77
+22:56:20.209 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<fail>> feature 2 of 2 (0 remaining) classpath:features/request.feature
+22:57:22.389 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+22:57:22.426 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1728446242408
+22:57:22.462 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+22:57:28.994 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was: null 
+22:57:29.170 [pool-1-thread-1] INFO  c.intuit.karate.core.FeatureRuntime - classpath:features/data.feature - call by tag at line 13: get_user
+22:57:30.484 [pool-1-thread-1] DEBUG com.intuit.karate - request:
+1 > GET https://reqres.in/api/users/2
+1 > Host: reqres.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.14 (Java/17.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+22:57:31.433 [pool-1-thread-1] DEBUG com.intuit.karate - response time in milliseconds: 937
+1 < 200
+1 < Date: Wed, 09 Oct 2024 03:57:31 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1728055067&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=PenLdsRC9h0kEGXYK%2F%2FR2KkL%2Fc4FRy7BROAshDd9JXo%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1728055067&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=PenLdsRC9h0kEGXYK%2F%2FR2KkL%2Fc4FRy7BROAshDd9JXo%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < Access-Control-Allow-Origin: *
+1 < Etag: W/"118-pbdwwFo9SKNhD3Lx5iHJyngpq00"
+1 < Via: 1.1 vegur
+1 < Cache-Control: max-age=14400
+1 < CF-Cache-Status: HIT
+1 < Age: 164
+1 < Vary: Accept-Encoding
+1 < Server: cloudflare
+1 < CF-RAY: 8cfb726ef9d2e60a-ARI
+{"data":{"id":2,"email":"janet.weaver@reqres.in","first_name":"Janet","last_name":"Weaver","avatar":"https://reqres.in/img/faces/2-image.jpg"},"support":{"url":"https://reqres.in/#support-heading","text":"To keep ReqRes free, contributions towards server costs are appreciated!"}}
+
+22:57:31.483 [pool-1-thread-1] INFO  com.intuit.karate - [print] otherTagFeature >>>  {
+  "data": {
+    "id": 2,
+    "email": "janet.weaver@reqres.in",
+    "first_name": "Janet",
+    "last_name": "Weaver",
+    "avatar": "https://reqres.in/img/faces/2-image.jpg"
+  },
+  "support": {
+    "url": "https://reqres.in/#support-heading",
+    "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+  }
+}
+ 
+22:57:31.501 [pool-1-thread-1] INFO  com.intuit.karate - [print] nameResponseUser >>>  janet.weaver@reqres.in 
+22:57:34.823 [pool-2-thread-1] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 2 (0 remaining) classpath:features/request.feature
